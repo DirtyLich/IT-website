@@ -707,9 +707,9 @@
 .div-framer-mainpage .overlap-5 {
   position: absolute;
   width: 1920px;
-  height: 1113px;
-  top: 3901px;
-  left: 190px;
+  height: 2000px;
+  top: 4000px;
+  left: 355px;
 }
 
 .div-framer-mainpage .footer {
@@ -725,15 +725,6 @@
   border-top-width: 1px;
   border-top-style: solid;
   border-color: #0000000d;
-}
-
-.div-framer-mainpage .pseudo {
-  position: relative;
-  width: 1680px;
-  height: 66px;
-  border-top-width: 1px;
-  border-top-style: solid;
-  border-color: #fdfdca;
 }
 
 .div-framer-mainpage .frame-16 {
@@ -817,4 +808,29 @@ font-size: 40px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 63.158% */
+}
+
+.div-framer-mainpage .registr {
+  display: flex;
+  width: 400px;
+  height: 94px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: #000;
+  margin-left: 240px; /* Измените значение в соответствии с вашими потребностями */
+}
+
+
+.div-framer-mainpage .text-wrapper-subs4 {
+font-family: Spectral SC;
+font-size: 30px;
+font-style: normal;
+font-weight: 275;
+line-height: 26px; /* 44.211% */
+background: linear-gradient(0deg, #FFFFDB 0%, rgba(255, 255, 219, 0.00) 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
 }
